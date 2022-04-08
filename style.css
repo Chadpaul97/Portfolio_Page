@@ -5,21 +5,21 @@
 }
 
 /* Main Page what people see first */
-.mainDisplay{
+.mainDisplay {
     background-color: #252934;
     height: 100vh;
     width: 100%;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; 
+    align-items: center;
 }
 
-.mainContent h1{
+.mainContent h1 {
     font-size: 4rem;
 }
 
-#chad{
+#chad {
     color: #e31b6d;
 }
 
@@ -31,49 +31,113 @@
     -webkit-animation: bounce 0.5s infinite linear;
     animation: bounce 0.5s infinite linear;
 }
-.fa-angle-down{
+
+.fa-angle-down {
     cursor: pointer;
     color: #027bdd;
     font-size: 30px;
     margin: 20px;
 }
-@-webkit-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@-moz-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@-o-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@-ms-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-} 
 
+@-webkit-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-o-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-ms-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+/* .arrow-bounce {
+    height: 300px;
+} */
 
 
 
 /* NavBar  */
 
-.navbar{
+.navbar {
     width: 100%;
     font-family: 'Segoe Ui';
     background-color: #1b242f;
@@ -83,29 +147,37 @@
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2px;
-} 
-.navbar ul{
+}
+
+.navbar ul {
     padding-left: 0%;
     position: relative;
     width: 100%;
-} 
+}
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     transition-duration: .75s;
     color: #e31b6d;
 }
-.navbar li{
+
+.navbar li {
     position: relative;
     list-style-type: none;
 }
 
 
 /* Skills */
-.skills img{
+.skills img {
     height: 100px;
 }
 
+
+
+.bottom {
+    background-color: #1b242f;
+}
